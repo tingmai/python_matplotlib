@@ -1,0 +1,106 @@
+Sample 1
+
+#Myanmar Cities and their population
+
+from matplotlib import pyplot plt
+
+
+dev_x=['Yangon','Mandalay','Mawlamyine','Taunggyi','Lashio','Myitkyina']
+dev_y=[6200000,2500000,1600000,550000,210000,870000];
+
+plt.plot(dev_x,dev_y)
+plt.xlabel('City Name')
+plt.ylabel('Population')
+plt.title('Myanmar Cities and Their Population')
+
+plt.show()
+
+
+
+Sample 2
+
+#2024 Northern City entrolled Programming Student 
+According to Months and Populations
+
+from matplotlib import pyplot plt
+
+
+dev_x=['January','February','Match','April','May']
+dev_y_python=[20,25,23,6,10,4];
+plt.plot(dev_x,dev_y_python,label='Python')
+dev_y_java=[10,15,2,15,8,14];
+plt.plot(dev_x,dev_y_java,label='Java')
+dev_y_cpp=[2,4,10,5,8,4];
+plt.plot(dev_x,dev_y_cpp,label='C Plus Plus')
+
+plt.xlabel('Months')
+plt.ylabel('Populations')
+plt.title('2024 Northern City Enrolled Programming Students')
+
+plt.show()
+
+
+Sample 3
+
+#2024 Northern City entrolled Programming Student 
+According to Months and Populations
+
+from matplotlib import pyplot plt
+
+#print(plt.style.available)
+plt.style.use('fivethirtyeight')
+#ggplot
+
+
+dev_x=['January','February','Match','April','May']
+dev_y_python=[20,25,23,6,10,4];
+plt.plot(dev_x,dev_y_python,color='#5a7d9a',linewidth=3,label='Python')
+dev_y_java=[10,15,2,15,8,14];
+plt.plot(dev_x,dev_y_java,color='#adad3b',linewidth=3,label='Java')
+dev_y_cpp=[2,4,10,5,8,4];
+plt.plot(dev_x,dev_y_cpp,color='#444444',linestyle='--',label='C Plus Plus')
+
+plt.xlabel('Months')
+plt.ylabel('Populations')
+plt.title('2024 Northern City Enrolled Programming Students')
+
+plt.tight_layout();
+plt.savefig('plot.png')
+
+plt.show()
+
+
+Sample 4
+
+#2024 Northern City entrolled Programming Student 
+According to Months and Populations
+
+from matplotlib import pyplot plt
+
+#print(plt.style.available)
+plt.style.use('fivethirtyeight')
+#ggplot
+
+
+dev_x=['January','February','Match','April','May']
+dev_y_python=[20,25,23,6,10,4];
+plt.plot(dev_x,dev_y_python,color='#5a7d9a',linewidth=3,label='Python')
+dev_y_java=[10,15,2,15,8,14];
+plt.plot(dev_x,dev_y_java,color='#adad3b',linewidth=3,label='Java')
+dev_y_cpp=[2,4,10,5,8,4];
+plt.plot(dev_x,dev_y_cpp,color='#444444',linestyle='--',label='C Plus Plus')
+
+plt.xlabel('Months')
+plt.ylabel('Populations')
+plt.title('2024 Northern City Enrolled Programming Students')
+
+plt.tight_layout();
+plt.savefig('plot.png')
+
+plt.show()
+
+
+
+
+
+
